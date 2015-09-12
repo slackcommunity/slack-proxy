@@ -1,4 +1,6 @@
 {
   "mandrillApiEmail": "",
-  "mandrillApiKey": ""
+  "mandrillApiKey": "",
+  "mailgunEmail": "",
+  "mailgunPassword": ""
 }
