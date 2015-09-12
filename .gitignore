@@ -1,0 +1,9 @@
+.meteor/local
+.meteor/meteorite
+
+*.scssc
+client/.sass-cache
+client/.sass-cache/*
+client/compass_app_log.txt
+
+settings.json
