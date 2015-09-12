@@ -11,3 +11,4 @@ accounts-oauth
 mongo
 wylio:mandrill
 nimble:restivus
+cunneen:mailgun

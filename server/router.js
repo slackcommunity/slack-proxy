@@ -20,3 +20,13 @@ Api.addRoute('inbound', {
     }
   }
 });
+
+Api.addRoute('mailgun', {
+  post: {
+    action: function () {
+      // Handle request
+      ProxyMailgun.process(this.request.body)
+      return {};
+    }
+  }
+});
