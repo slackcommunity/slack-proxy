@@ -7,3 +7,7 @@
 meteor-platform
 autopublish
 insecure
+accounts-oauth
+mongo
+wylio:mandrill
+nimble:restivus
