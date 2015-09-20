@@ -1,2 +1,1 @@
-MastermindJam (code name Alice)
-=========
+
