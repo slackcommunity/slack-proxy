@@ -1,0 +1,24 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+nav .brand-logo {
+	font-size: 1.75rem;
+	font-weight: 100;
+	padding: 0;
+}
+
+#login-buttons > .login-button, #login-buttons-logout {
+	display: inline-block;
+}

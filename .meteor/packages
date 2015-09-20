@@ -5,10 +5,39 @@
 # but you can also edit it by hand.
 
 meteor-platform
-autopublish
-insecure
+standard-app-packages
+service-configuration
+blaze
+underscore
+spacebars
+http
+check
+jquery
+email
+random
+accounts-base
 accounts-oauth
-mongo
-wylio:mandrill
+# accounts-ui
+accounts-ui-unstyled
+acemtp:accounts-slack
+useraccounts:core
+useraccounts:materialize
+alanning:roles
+meteorhacks:kadira
+meteorhacks:kadira-profiler
+materialize:materialize
+kadira:flow-router
+kadira:blaze-layout
 nimble:restivus
+wylio:mandrill
 cunneen:mailgun
+momentjs:moment
+mrt:later
+percolate:synced-cron
+aldeed:collection2
+aldeed:autoform
+aldeed:simple-schema
+aldeed:template-extension
+gildaspk:autoform-materialize
+copleykj:livestamp
+mantarayar:shortid
