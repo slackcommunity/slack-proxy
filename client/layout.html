@@ -1,0 +1,66 @@
+<template name="layout">
+  {{> header}}
+
+  {{#if currentUser }}
+
+		{{> Template.dynamic template=authenticatedMain}}
+
+	  <footer class="page-footer orange">
+	    <div class="container">
+	      <div class="row">
+	        <div class="col l6 s12">
+	          <h5 class="white-text">Your Profile</h5>
+	          <p class="grey-text text-lighten-4">
+
+			      {{> loginButtons}}
+
+						<p>Slack user name: <b>{{currentUser.profile.name}}</b></p>
+						<p>Slack team name: <b>{{currentUser.profile.team}}</b></p>
+						<p>Slack user id: <b>{{currentUser.profile.user_id}}</b></p>
+						<p>Slack team id: <b>{{currentUser.profile.team_id}}</b></p>
+
+	          </p>
+	        </div>
+	      </div>
+	    </div>
+	    <div class="footer-copyright">
+	      <div class="container">
+	      Made by Ken and Justin
+	      </div>
+	    </div>
+	  </footer>
+
+  {{else}}
+
+	  <div class="section no-pad-bot" id="index-banner">
+	    <div class="container">
+	      <h1 class="header center orange-text">Protect your #slack user's privacy</h1>
+	      <div class="row center">
+	        <h2 class="header col s12 light">Easily mask user email addresses in your slack channel.</h2>
+	      </div>
+	      <div class="row center">
+					{{> loginButtons}}
+	      </div>
+	    </div>
+	  </div>
+
+	  <div class="container">
+	    <div class="section">
+
+	    </div>
+	  </div>
+
+	  <footer class="page-footer orange">
+	    <div class="container">
+	      <div class="row">
+
+	      </div>
+	    </div>
+	    <div class="footer-copyright">
+	      <div class="container">
+	      Made by Justin and Ken
+	      </div>
+	    </div>
+	  </footer>
+  {{/if}}
+</template>

@@ -1,4 +1,4 @@
 Meteor.Mailgun.config({
-  username: Meteor.settings.mailgunEmail,
-  password: Meteor.settings.mailgunPassword
+  username: Meteor.settings.private.mailgunEmail,
+  password: Meteor.settings.private.mailgunPassword
 });

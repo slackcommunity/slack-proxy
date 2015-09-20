@@ -1,6 +1,14 @@
 {
-  "mandrillApiEmail": "",
-  "mandrillApiKey": "",
-  "mailgunEmail": "",
-  "mailgunPassword": ""
+	"private": {
+    "mandrillApiEmail": "",
+    "mandrillApiKey": "",
+    "mailgunEmail": "",
+    "mailgunPassword": "",
+    "kadira": { 
+		  "appId": "", 
+		  "appSecret": ""
+    }
+  },
+  "public": {
+  }
 }
